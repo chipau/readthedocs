@@ -1,0 +1,37 @@
+site_name: Yến sào ĐẠI LÂM MỘC
+site_description: 'Nhà phân phối, cung cấp yến sào sỉ và lẻ chất lượng cao tại Việt Nam'
+site_author: 'Trương Xuân Vũ'
+
+theme: 
+    name: rtd-dropdown
+    # Default settings
+    collapse_by_default: false
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
+    # Development Settings
+    #name: null
+    #custom_dir: 'rtd_dropdown/'
+
+repo_url: https://github.com/carolynkish300/mkdocs-rtd-dropdown
+
+nav:
+    - Trang chủ: index.md
+    - All blogs:
+        - Một Số Tác Dụng Của Yến Sào Với Phụ Nữ: user-guide/mot-so-tac-dung-cua-yen-sao-voi-phu-nu.md
+        - Tìm Hiểu Công Dụng Của Yến Sào Dành Cho Trẻ Em: user-guide/tim-hieu-cong-dung-cua-yen-sao-danh-cho-tre-em.md
+        - Tìm Hiểu Các Công Dụng Tuyệt Vời Của Yến Sào Hiện Nay: user-guide/tim-hieu-cac-cong-dung-tuyet-voi-cua-yen-sao-hien-nay.md
+        - Một Số Hình Ảnh Tổ Yến Đảo Thiên Nhiên Các Loại: user-guide/mot-so-hinh-anh-to-yen-dao-thien-nhien-cac-loai.md
+        - Bảng Giá Tổ Yến Trên Thị Trường Hiện Nay: user-guide/bang-gia-to-yen-tren-thi-truong-hien-nay.md
+        - Tổng Quan Cách Làm Sạch Và Chế Biến Tổ Yến Sào Đúng Cách: user-guide/tong-quan-cach-lam-sach-va-che-bien-to-yen-sao-dung-cach.md
+        - Thắc Mắc Việc Yến Sào Có Chữa Được Bệnh Không: about/thac-mac-viec-yen-sao-co-chua-duoc-benh-khong.md
+      
+
+extra_css:
+    - css/extra.css
+
+plugins:
+    - search
+
+google_analytics: ['UA-165101248-1', 'yensaodailammoc.readthedocs.io']
